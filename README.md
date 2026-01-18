@@ -1,19 +1,17 @@
-# Productivity Management Dashboard API
+Productivity Management Dashboard API
 
 A backend REST API for managing tasks, tracking productivity, and visualizing user performance.  
 Built with **Node.js, Express, MongoDB, and JWT authentication**.
-
 ---
+Features
 
-## 🚀 Features
-
-### 🔐 Authentication & Authorization
+Authentication & Authorization
 - User registration and login
 - Secure password hashing using bcrypt
 - JWT-based authentication
 - Protected routes using middleware
 
-### 📝 Task Management
+Task Management
 - Create, read, update, and delete tasks
 - Tasks are user-specific (ownership enforced)
 - Task fields:
@@ -25,29 +23,23 @@ Built with **Node.js, Express, MongoDB, and JWT authentication**.
   - Tags
 - Automatic overdue detection
 
-### 🔎 Search & Filtering
+Search & Filtering
 - Filter tasks by:
   - Status
   - Priority
   - Deadline range
   - Tags
 
-### 📊 Productivity Dashboard
+Productivity Dashboard
 - Total tasks
 - Completed tasks
 - Pending tasks
 - Overdue tasks
 - Completion rate (%)
-
 ---
-
-## 🛠️ Tech Stack
-
+Tech Stack
 - **Backend:** Node.js, Express
 - **Database:** MongoDB (local)
 - **Authentication:** JWT
 - **ODM:** Mongoose
-
 ---
-
-## 📁 Project Structure
