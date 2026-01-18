@@ -1,7 +1,6 @@
 Productivity Management Dashboard API
 
 A backend REST API for managing tasks, tracking productivity, and visualizing user performance.  
-Built with **Node.js, Express, MongoDB, and JWT authentication**.
 ---
 Features
 
